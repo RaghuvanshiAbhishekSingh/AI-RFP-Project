@@ -1,0 +1,85 @@
+{
+  "run": {
+    "rfp_run_id": "7b29bd32-8b00-4e6e-980a-3bd84de862ec",
+    "created_at": "2026-10-25T12:58:06.567382+00:00",
+    "status": "completed",
+    "criteria_snapshot_json": "[{\"criterion_id\": 1, \"name\": \"Technical Capability\", \"description\": \"Architecture, integrations, scalability, and technical fit\", \"weight\": \"30.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 2, \"name\": \"Implementation Plan\", \"description\": \"Timeline, milestones, staffing, and risk plan\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 3, \"name\": \"Commercial Value\", \"description\": \"Pricing clarity, total cost, and assumptions\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 4, \"name\": \"Security & Compliance\", \"description\": \"Controls, certifications, privacy, and auditability\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 5, \"name\": \"Support & Experience\", \"description\": \"Support model, similar projects, and references\", \"weight\": \"10.0\", \"max_score\": \"10.0\", \"is_active\": true}]",
+    "config_json": "{\"model\": \"gpt-4o-mini\", \"prompt_version\": \"1\"}",
+    "warnings_json": "[]",
+    "error_message": null
+  },
+  "suppliers": [
+    {
+      "supplier_name": "Brightpath Tech",
+      "submission_date": "2026-10-25",
+      "experience_rating": "5.0",
+      "absolute_score": "59.00",
+      "ppi": "100",
+      "final_rank": 1,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": "5.0",
+          "max_score": "10.0",
+          "weight": "30.0",
+          "benchmark": "5.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "Proposed Solution: The proposed hosted portal includes standard workflows and CSV imports.",
+          "justification": "The proposal mentions standard workflows and CSV imports, indicating some level of technical capability, but lacks detailed information on architecture and scalability."
+        },
+        {
+          "criterion_id": 2,
+          "score": "8.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "8.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "An eight-week timeline covers configuration, user acceptance testing, and launch.",
+          "justification": "The implementation plan outlines an eight-week timeline with a clear structure including configuration, user acceptance testing, and launch."
+        },
+        {
+          "criterion_id": 3,
+          "score": "7.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "7.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "Implementation $165,000; Annual support $36,000; Assumption: Standard connectors are sufficient.",
+          "justification": "The pricing is clear with a total cost provided, but lacks detail on assumptions beyond the standard connectors."
+        },
+        {
+          "criterion_id": 4,
+          "score": "4.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "4.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "The platform uses encrypted connections and routine backups.",
+          "justification": "The proposal mentions encrypted connections and routine backups, but lacks detailed information on certifications and compliance measures."
+        },
+        {
+          "criterion_id": 5,
+          "score": "6.0",
+          "max_score": "10.0",
+          "weight": "10.0",
+          "benchmark": "6.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "BrightPath has delivered two smaller implementations; references are available on request.",
+          "justification": "BrightPath has experience with two smaller implementations and offers references, but does not provide specific examples or detailed support models."
+        }
+      ],
+      "risks": [
+        "Lack of detailed information on architecture and scalability for Technical Capability.",
+        "Insufficient details on certifications and compliance measures for Security & Compliance."
+      ],
+      "overall_summary": "Brightpath Tech presents a solid proposal with a clear implementation plan and competitive pricing, but lacks depth in technical details and compliance information.",
+      "warnings": [],
+      "ranking_explanation": "Ordered by PPI (descending), submission date (ascending), historical experience rating (descending), then supplier name (ascending)."
+    }
+  ]
+}

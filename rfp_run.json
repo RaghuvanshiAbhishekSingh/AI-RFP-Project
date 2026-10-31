@@ -1,0 +1,88 @@
+{
+  "run": {
+    "rfp_run_id": "e90ad9cf-8440-45c2-8481-7f5b8b1b0173",
+    "created_at": "2026-10-25T12:31:51.705256+00:00",
+    "status": "completed",
+    "criteria_snapshot_json": "[{\"criterion_id\": 1, \"name\": \"Technical Capability\", \"description\": \"Architecture, integrations, scalability, and technical fit\", \"weight\": \"30.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 2, \"name\": \"Implementation Plan\", \"description\": \"Timeline, milestones, staffing, and risk plan\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 3, \"name\": \"Commercial Value\", \"description\": \"Pricing clarity, total cost, and assumptions\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 4, \"name\": \"Security & Compliance\", \"description\": \"Controls, certifications, privacy, and auditability\", \"weight\": \"20.0\", \"max_score\": \"10.0\", \"is_active\": true}, {\"criterion_id\": 5, \"name\": \"Support & Experience\", \"description\": \"Support model, similar projects, and references\", \"weight\": \"10.0\", \"max_score\": \"10.0\", \"is_active\": true}]",
+    "config_json": "{\"model\": \"gpt-4o-mini\", \"prompt_version\": \"1\"}",
+    "warnings_json": "[]",
+    "error_message": null
+  },
+  "suppliers": [
+    {
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-10-25",
+      "experience_rating": "5.0",
+      "absolute_score": "77.00",
+      "ppi": "100",
+      "final_rank": 1,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": "7.0",
+          "max_score": "10.0",
+          "weight": "30.0",
+          "benchmark": "7.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "Integration patterns will be agreed after contract award.",
+          "justification": "The proposal mentions configuring an established platform and working on integration patterns, indicating a solid technical capability, but lacks detailed architecture and scalability information."
+        },
+        {
+          "criterion_id": 2,
+          "score": "8.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "8.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "The 16-week approach includes mobilisation, configuration, testing, training, and launch.",
+          "justification": "The implementation plan outlines a clear 16-week timeline with defined phases and team roles, but does not detail specific milestones or risk management strategies."
+        },
+        {
+          "criterion_id": 3,
+          "score": "7.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "7.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "Implementation $260,000; Annual support $68,000.",
+          "justification": "The pricing is clear with specified amounts for implementation and annual support, but lacks detail on total cost implications and assumptions beyond integration scope."
+        },
+        {
+          "criterion_id": 4,
+          "score": "9.0",
+          "max_score": "10.0",
+          "weight": "20.0",
+          "benchmark": "9.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "The service has encryption, role-based access, security monitoring, backup testing, and an ISO 27001-aligned information-security programme.",
+          "justification": "The proposal includes strong security measures such as encryption and ISO 27001 alignment, indicating high compliance, but does not mention specific certifications beyond ISO."
+        },
+        {
+          "criterion_id": 5,
+          "score": "8.0",
+          "max_score": "10.0",
+          "weight": "10.0",
+          "benchmark": "8.0",
+          "gap": "0.0",
+          "relative_percent": "100",
+          "evidence": "Orbit offers 24/7 critical support, a service desk, quarterly reviews, and six references from comparable large organisations.",
+          "justification": "The support model is robust with 24/7 support and references from comparable organizations, but lacks detailed descriptions of similar projects."
+        }
+      ],
+      "risks": [
+        "Lack of detailed architecture and scalability information for Technical Capability.",
+        "No specific milestones or risk management strategies outlined in the Implementation Plan.",
+        "Limited detail on total cost implications and assumptions in the Commercial Value section.",
+        "Absence of specific certifications beyond ISO in Security & Compliance.",
+        "No detailed descriptions of similar projects in Support & Experience."
+      ],
+      "overall_summary": "Orbit Digital presents a strong proposal with solid technical capabilities, a clear implementation plan, and robust security measures, but lacks some details that could enhance the evaluation.",
+      "warnings": [],
+      "ranking_explanation": "Ordered by PPI (descending), submission date (ascending), historical experience rating (descending), then supplier name (ascending)."
+    }
+  ]
+}
